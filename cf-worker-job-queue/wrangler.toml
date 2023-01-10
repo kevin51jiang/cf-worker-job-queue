@@ -1,0 +1,16 @@
+name = "cf-worker-job-queue"
+main = "src/index.ts"
+compatibility_date = "2023-01-06"
+
+account_id = "9c229e68b42f14a2a7d23f262c6d043b"
+workers_dev = true
+
+[[r2_buckets]]
+binding = 'BUCKET'
+bucket_name = 'wikinow'
+
+[[ d1_databases ]]
+binding = "DB"
+database_name = "wikinow-db"
+database_id = "65bb82fe-8742-414c-986c-a2b7b451bb8f"
+
